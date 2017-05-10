@@ -24,6 +24,10 @@ public class HelloController {
     public Object hello() {
 
 
+
+        ArrayList<String> arrayList = new ArrayList<String>();
+
+
         return new UserParam("xujiyao" , "22" , "M");
     }
 
